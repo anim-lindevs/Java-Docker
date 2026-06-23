@@ -1,0 +1,6 @@
+services:
+  java:
+   image: eclipse-temurin:17-jdk-alpine
+   restart: always
+   ports:
+     - 3306:3306
