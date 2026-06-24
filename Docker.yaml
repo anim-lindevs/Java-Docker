@@ -1,6 +1,6 @@
 services:
   java:
-   image: eclipse-temurin:17-jdk-alpine
+   image: animlindevs/java-app:latest
    restart: always
    ports:
      - 3306:3306
